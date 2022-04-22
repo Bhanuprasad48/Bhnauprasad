@@ -1,0 +1,25 @@
+mport java.util.*;
+class Employee
+{
+void EmpData()
+{
+String n;
+int age;
+Scanner in=new Scanner(System.in);
+System.out.println("enter name of the employe:");
+n=in.nextLine();
+System.out.println("enter the age of the employe:");
+age=in.nextInt();
+System.out.println("name of employe:"+n);
+System.out.println("age of the employe:"+age);
+}
+}
+class Data extends Employee
+{
+public static void main(String args[])
+{
+
+Data d=new Data();
+d.EmpData();
+}
+}
