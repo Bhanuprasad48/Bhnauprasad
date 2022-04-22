@@ -1,0 +1,18 @@
+class  Employe
+{
+void data(int i)
+{
+System.out.println( i);
+}
+void data(int a,String i)
+{
+System.out.println(a+","+i);
+}
+public static void main(String args[])
+{
+System.out.println("emp_id emp_name");
+Employe e=new Employe();
+e.data(12);
+e.data(12,"bhanu");
+}
+}
